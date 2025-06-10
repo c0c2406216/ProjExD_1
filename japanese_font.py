@@ -9,6 +9,8 @@ def main():
     font_lst = [f for f in pg.font.get_fonts() if f != ""]
     print(font_lst)
 
+
+
     screen = pg.display.set_mode((800, 600))
     clock = pg.time.Clock()
     font = pg.font.SysFont("hgp創英角ﾎﾟｯﾌﾟ体", 30)
